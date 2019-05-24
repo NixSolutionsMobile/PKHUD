@@ -10,7 +10,7 @@
 import UIKit
 
 /// PKHUDErrorView provides an animated error (cross) view.
-open class PKHUDErrorView: PKHUDSquareBaseView, PKHUDAnimating {
+@objcMembers open class PKHUDErrorView: PKHUDSquareBaseView, PKHUDAnimating {
 
     var dashOneLayer = PKHUDErrorView.generateDashLayer()
     var dashTwoLayer = PKHUDErrorView.generateDashLayer()

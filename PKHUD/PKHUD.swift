@@ -10,7 +10,7 @@
 import UIKit
 
 /// The PKHUD object controls showing and hiding of the HUD, as well as its contents and touch response behavior.
-open class PKHUD: NSObject {
+@objcMembers open class PKHUD: NSObject {
 
     fileprivate struct Constants {
         static let sharedHUD = PKHUD()
